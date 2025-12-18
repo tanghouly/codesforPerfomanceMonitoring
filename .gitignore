@@ -1,0 +1,20 @@
+# --- OS Files (Junk) ---
+.DS_Store
+Thumbs.db
+
+# --- Arduino ---
+# Ignore compiled files and builds
+/build/
+*.elf
+*.hex
+*.bin
+*.lock
+
+# --- MATLAB ---
+# Ignore autosaves and workspace variables
+*.asv
+*.mat
+*.autosave
+
+# --- VS Code / Editors (Optional) ---
+.vscode/
